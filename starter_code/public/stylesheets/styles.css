@@ -5,4 +5,67 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav{
+  color: #F7F9F9;
+  background-color: #2081C3;
+}
+
+nav div div a{
+  color: #F7F9F9;
+}
+
+.nav-color{
+  color: #F7F9F9;
+}
+
+.card-footer{
+  background-color: #0A2C42;
+}
+
+.container .col .col *{
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.large-beer{
+  width: 50%;
+}
+
+.container .col .col button{
+  color: #F7F9F9;
+  background-color: #2081C3;
+  border-radius: 8px;
+}
+
+.beers-layout{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.text-layout{
+  font-size: 0.8rem;
+}
+
+.beer-layout > * {
+  padding: 2px;
+  margin: 3px;
+}
+
+.beer{
+  height: 200px;
+}
+
+.text-color{
+  color: black;
+}
+
+.text-color-2{
+  color:rgba(145, 145, 145, 0.481);
+}

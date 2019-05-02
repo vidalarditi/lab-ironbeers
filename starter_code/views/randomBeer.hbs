@@ -1,0 +1,29 @@
+<div class="container">
+  {{#each beers}}
+  <div class="row">
+    <div class="col-2">
+      <img class="mx-auto d-block" src="{{this.image_url}}">
+    </div>
+    <div class="col-10">
+      <div>
+        <h3>{{this.name}}</h3>
+        <span>{{this.tagline}}</span>
+      </div>
+      <div>
+        <p>{{this.description}}</p>
+      </div>
+      <div>
+        <h5>Food Pairing</h5>
+        <ul>
+      {{#each this.food_pairing}}
+        <li>{{this}}</li>
+      {{/each}}
+      </ul>
+      </div>
+      <div>
+        <p><strong>Brewers tips:</strong> {{this.brewers_tips}}</p>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
